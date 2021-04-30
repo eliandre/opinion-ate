@@ -14,12 +14,6 @@ module.exports = {
     },
   },
   rules: {
-    'prettier/prettier': [
-      'warn',
-      'error',
-      {
-        endOfLine: 'auto',
-      },
-    ],
+    'prettier/prettier': 'warn',
   },
 };
